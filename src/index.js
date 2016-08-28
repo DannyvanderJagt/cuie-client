@@ -1,9 +1,12 @@
+import Ws from 'ws';
+var WebSocket = Ws;
+
 import Client from './client';
 import Service from './service';
 
 function Cuie(){
   this.host = 'localhost';
-  this.port = 2001;
+  this.port = 2002;
 
   this.key;
   this.ws;
